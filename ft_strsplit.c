@@ -6,7 +6,7 @@
 /*   By: amerelo <amerelo@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/29 14:23:39 by amerelo           #+#    #+#             */
-/*   Updated: 2015/12/02 10:53:14 by amerelo          ###   ########.fr       */
+/*   Updated: 2015/12/08 15:52:35 by amerelo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,5 +58,6 @@ char			**ft_strsplit(char const *s, char c)
 			tab[size++] = ft_strsub(s, start, i - start);
 		}
 	}
+	tab[size] = 0;
 	return (tab);
 }
