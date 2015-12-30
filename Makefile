@@ -32,8 +32,9 @@ FLAG = -Wall -Werror -Wextra
 all: $(NAME)
 
 $(NAME):
-	gcc -c $(FLAG) $(SRC) -I libft.h
+	gcc $(FLAGS) -c $(SRC) -I ./includes/
 	ar rc $(NAME) $(OBJ)
+
 
 clean:
 	rm -rf $(OBJ)
