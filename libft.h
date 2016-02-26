@@ -69,6 +69,8 @@ int					ft_strequ(char const *s1, char const *s2);
 void				ft_striter(char *s, void (*f)(char *));
 void				ft_striteri(char *s, void (*f)(unsigned int, char *));
 char				*ft_strjoin(char const *s1, char const *s2);
+char				*ft_strjoin_char(char *s1, char *s2, char sym);
+char				*ft_strjoin_char_free(char *s1, char *s2, char sym, int i);
 char				*ft_strmap(char const *s, char (*f)(char));
 char				*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 int					ft_strnequ(char const *s1, char const *s2, size_t n);

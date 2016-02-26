@@ -22,6 +22,7 @@ ft_putnbr.c ft_putnbr_fd.c ft_putstr.c ft_putstr_fd.c ft_strclr.c \
 ft_strdel.c ft_strequ.c ft_striter.c ft_striteri.c ft_strjoin.c ft_strmap.c \
 ft_strmapi.c ft_strnequ.c ft_strnew.c ft_strsplit.c ft_strsub.c ft_strtrim.c \
 ft_lstadd.c ft_lstdel.c ft_lstdelone.c ft_lstiter.c ft_lstmap.c ft_lstnew.c \
+ft_strjoin_char_free.c ft_strjoin_char.c
 
 OBJ = $(SRC:.c=.o)
 
@@ -32,14 +33,14 @@ FLAG = -Wall -Werror -Wextra
 all: $(NAME)
 
 $(NAME):
-	gcc $(FLAGS) -c $(SRC) -I ./includes/
-	ar rc $(NAME) $(OBJ)
+	@gcc $(FLAGS) -c $(SRC) -I ./includes/
+	@ar rc $(NAME) $(OBJ)
 
 
 clean:
-	rm -rf $(OBJ)
+	@rm -rf $(OBJ)
 
-fclean : clean
-	rm -rf $(NAME)
+fclean: clean
+	@rm -rf $(NAME)
 
-re : fclean all
+re: fclean all
