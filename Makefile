@@ -6,7 +6,7 @@
 #    By: amerelo <amerelo@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/11/23 15:00:07 by amerelo           #+#    #+#              #
-#    Updated: 2015/11/30 21:48:59 by amerelo          ###   ########.fr        #
+#    Updated: 2016/03/04 15:08:07 by amerelo          ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -22,7 +22,7 @@ ft_putnbr.c ft_putnbr_fd.c ft_putstr.c ft_putstr_fd.c ft_strclr.c \
 ft_strdel.c ft_strequ.c ft_striter.c ft_striteri.c ft_strjoin.c ft_strmap.c \
 ft_strmapi.c ft_strnequ.c ft_strnew.c ft_strsplit.c ft_strsub.c ft_strtrim.c \
 ft_lstadd.c ft_lstdel.c ft_lstdelone.c ft_lstiter.c ft_lstmap.c ft_lstnew.c \
-ft_strjoin_char_free.c ft_strjoin_char.c
+ft_strjoin_char_free.c ft_strjoin_char.c get_next_line.c
 
 OBJ = $(SRC:.c=.o)
 

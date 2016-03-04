@@ -6,7 +6,7 @@
 /*   By: amerelo <amerelo@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/11/23 14:54:17 by amerelo           #+#    #+#             */
-/*   Updated: 2015/11/26 16:17:06 by amerelo          ###   ########.fr       */
+/*   Updated: 2016/03/04 15:07:00 by amerelo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 # include <unistd.h>
 # include <stdlib.h>
 # include <sys/types.h>
+# include "get_next_line.h"
 
 typedef struct		s_list
 {
